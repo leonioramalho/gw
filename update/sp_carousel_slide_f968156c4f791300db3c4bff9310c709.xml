@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_carousel_slide">
+    <sp_carousel_slide action="INSERT_OR_UPDATE">
+        <background/>
+        <carousel/>
+        <name>sp3</name>
+        <order>150</order>
+        <sys_class_name>sp_carousel_slide</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-27 17:58:04</sys_created_on>
+        <sys_id>f968156c4f791300db3c4bff9310c709</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sp3</sys_name>
+        <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
+        <sys_update_name>sp_carousel_slide_f968156c4f791300db3c4bff9310c709</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-27 17:58:04</sys_updated_on>
+        <url>?id=sc_cat_item&amp;sys_id=d130ad75d7620200a9ad1e173e24d43c</url>
+    </sp_carousel_slide>
+</record_update>
