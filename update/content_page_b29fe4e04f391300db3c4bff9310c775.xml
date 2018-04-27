@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="content_page" unload_date="2018-04-27 17:53:51">
+    <sys_portal action="delete_multiple" query="page=b29fe4e04f391300db3c4bff9310c775"/>
+    <content_page action="INSERT_OR_UPDATE">
+        <content_site/>
+        <content_theme/>
+        <description/>
+        <frame_buster>false</frame_buster>
+        <layout/>
+        <model_id/>
+        <model_table>x_214172_globalweb_ministerio_da_justica</model_table>
+        <name>Globalweb</name>
+        <order/>
+        <parent_page display_value="Portal - Order Services">5d0424e80a0a0bb101e16f30e66cda9c</parent_page>
+        <read_roles/>
+        <roles/>
+        <selectable>true</selectable>
+        <sys_class_name>content_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-27 15:03:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b29fe4e04f391300db3c4bff9310c775</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Globalweb</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
+        <sys_update_name>content_page_b29fe4e04f391300db3c4bff9310c775</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-27 15:03:14</sys_updated_on>
+        <title/>
+        <url_suffix/>
+        <user/>
+        <view/>
+        <workflow_state>published</workflow_state>
+    </content_page>
+</record_update>

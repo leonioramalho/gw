@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Projetos Globalweb</name>
+        <order>100</order>
+        <roles>x_214172_globalweb.minist_rio_da_justi_a_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-25 11:59:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2443b1734f211300db3c4bff9310c79b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Projetos Globalweb</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
+        <sys_update_name>sys_app_application_2443b1734f211300db3c4bff9310c79b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-25 11:59:58</sys_updated_on>
+        <title>Projetos Globalweb</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>
