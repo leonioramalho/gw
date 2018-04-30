@@ -25,4 +25,41 @@
         <title>Projetos Globalweb</title>
     </sc_catalog>
     <sys_translated_text action="delete_multiple" query="documentkey=0b40bde84fb91300db3c4bff9310c7a6"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#0</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>desktop_image</file_name>
+        <image_height>201</image_height>
+        <image_width>251</image_width>
+        <size_bytes>1113</size_bytes>
+        <size_compressed>1021</size_compressed>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-30 11:36:43</sys_created_on>
+        <sys_id>3ced97994f351300db3c4bff9310c739</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-30 11:36:43</sys_updated_on>
+        <table_name>ZZ_YYsc_catalog</table_name>
+        <table_sys_id>0b40bde84fb91300db3c4bff9310c7a6</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="desktop_image" sys_id="3ced97994f351300db3c4bff9310c739">3ced97994f351300db3c4bff9310c739</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-30 11:36:43</sys_created_on>
+        <sys_id>34ed97994f351300db3c4bff9310c73a</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>zZT9U5IHAMe5c2VXabFG7fLEtS21bqjLmCYHDl8i0ylpxXk2yTtFkKWXDGU+iyfn+ZqtdS69qeCWp4k4k/kGewxNPUk58QVEH0AwO1+2HqAL4Q4RGX/Gfvh8Pj98f//WUlMpfodPH0ahUH5JVxLSvXV5mT7k4/UiduCCNyxqyvVEbz0eD5VKjY+P7+joaGxstFqtEAQpFAqbzVZUVLS9vT08PAyCoEqlamho0Ol0a2trRCLR6XRGR0djMJi8vDyRSCSRSDQaDY1GCw0N5fP5aDSazWYLBIKIiAgul1tTU2OoeslDoXzESQnk67xWs56d1U09XvU68+wMefIjZXzergfMpWa9+fVojDpbZSfRA5mrAWdSvpKNMvsf2aLW7Y0K12xbT90OmFCc2y0OPOGuFOmbntNeKbObdMnqoWrajDJuY/CcviJgO6Hcsv69eVluSuvoFmcM0jmPxaWaW8LOe8WRAuZTKSkR+PzrkLqdk11M8JREUXZE0x9bO18r1Nzsyn9UiZT5Zs/Kvztt7L+foY25obFYNcjDB3tlY51vdzsLmsrwrj+G9nNC7rjT71Iz2zIGQEPxdkFR87En9ktE1/uhpeX9jYFUHg4wTwUHjPxwc/XWW8dlJak3jB/Ds7G4Nsn47sz+JGnvKrE8sGRlo+Jb0kpO9T1q34Q/FFfQlvOsgaN+bRIFL81azZEIUcOiq0LC2xlbo9JvssKd807O+7/ti8pco1PL0k8sY7hP2g5iCfR9E1HY2FQqH7mqNzGjkFPCx9HWPTLbGWWfB5nNc8Ua5E0y/bPVUUEo1sMw0Q2yA4QFuRqLC7MaqgQnr+nl/+hlaMLCCMsKBr+qd+8dVce6esCtEuSiWHdiSuUHnxOtQFbGv5l/PecjPYoPvoBHg5ifGKdTpxD6sx9ZJknnHbjU5OB6cn/DAU536N1jEN7VO2BTlXAc6/Uhjv7bWqR6XLUqwwNn2jiUWXhrZzwQn0/PmPE6jaX02vShbRgiu36WevLmhAJcFDPoONIHfIz0PfAlINiDBGT9pT9U7YXXN2HJ6ZsIw/5P5+UVmoHMcWBw0vZN5EidzOsvDxiucRz34yxdl4Ar6FJNK/HTpkjKnzCHUjjZOsgIwpRYWozNxPOIZawFz4iVLgrfVT2EG8Kh5MyJIUTkGiJoB3AQAc5vZWU4YNhyYUp6FtjkIxYZaPzFDd8wF+qh8kCXdsnsphjr3TDe/GJrBANs6hxy8Qu0a4oLA4XFKSvq88OM0ulKAPBxxKertWZVYruJNGeCiEGJfmx19kX/Ct7Cvtru1tEeRB9qefc07Xc/si/FNtbi/QhUUmJqQm/c7Z/+A1MOpihZBAAA</data>
+        <length>1348</length>
+        <position>1</position>
+        <sys_attachment display_value="desktop_image" sys_id="3ced97994f351300db3c4bff9310c739">3ced97994f351300db3c4bff9310c739</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-30 11:36:43</sys_created_on>
+        <sys_id>b4ed97994f351300db3c4bff9310c73a</sys_id>
+    </sys_attachment_doc>
 </record_update>

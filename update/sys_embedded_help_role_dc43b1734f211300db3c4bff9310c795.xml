@@ -2,7 +2,7 @@
 <record_update table="sys_embedded_help_role">
     <sys_embedded_help_role action="INSERT_OR_UPDATE">
         <order>1000</order>
-        <role display_value="x_214172_globalweb.minist_rio_da_justi_a_user" name="x_214172_globalweb.minist_rio_da_justi_a_user">5c43b1734f211300db3c4bff9310c793</role>
+        <role/>
         <sys_class_name>sys_embedded_help_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-04-25 11:59:57</sys_created_on>

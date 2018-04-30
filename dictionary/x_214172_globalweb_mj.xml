@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_214172_globalweb_infogeral" label="MJ" max_length="40" name="x_214172_globalweb_mj" type="collection">
+        <element label="Indice de Chamados Reabertos" max_length="40" name="indice_de_chamados_reabertos" type="percent_complete"/>
+        <element label="Indice de chamados resolvidos dentro do prazo estabelecido" max_length="40" name="indice_de_chamados_resolvidos_dentro_do_prazo_estabelecido" type="percent_complete"/>
+        <element label="Indice de disponibilidade de servicos criticos" max_length="40" name="indice_de_disponibilidade_de_servicos_criticos" type="percent_complete"/>
+        <element label="Indice de Satisfacao dos Solicitantes de Atividades de TIC" max_length="40" name="indice_de_satisfacao_dos_solicitantes_de_atividades_de_tic" type="percent_complete"/>
+        <element label="Prazo para inicio do atendimento" max_length="40" name="prazo_para_inicio_do_atendimento" type="percent_complete"/>
+    </element>
+</database>

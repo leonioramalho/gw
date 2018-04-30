@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Financeiro" section_id="03edb3dd4f751300db3c4bff9310c70c" sys_domain="global" table="x_214172_globalweb_mj" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>faturamento</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-30 13:56:42</sys_created_on>
+            <sys_id>8fedb3dd4f751300db3c4bff9310c748</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financeiro" display_value="Financeiro" name="x_214172_globalweb_mj" sys_domain="global" view="Default view">03edb3dd4f751300db3c4bff9310c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-30 13:56:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-30 13:56:42</sys_created_on>
+            <sys_id>03edb3dd4f751300db3c4bff9310c749</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financeiro" display_value="Financeiro" name="x_214172_globalweb_mj" sys_domain="global" view="Default view">03edb3dd4f751300db3c4bff9310c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-30 13:56:42</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>glosa</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-30 13:56:42</sys_created_on>
+            <sys_id>83edb3dd4f751300db3c4bff9310c749</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financeiro" display_value="Financeiro" name="x_214172_globalweb_mj" sys_domain="global" view="Default view">03edb3dd4f751300db3c4bff9310c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-30 13:56:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Financeiro</caption>
+            <header>false</header>
+            <name>x_214172_globalweb_mj</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-30 13:56:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>03edb3dd4f751300db3c4bff9310c70c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Financeiro</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
+            <sys_update_name>sys_ui_section_03edb3dd4f751300db3c4bff9310c70c</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-30 13:56:41</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

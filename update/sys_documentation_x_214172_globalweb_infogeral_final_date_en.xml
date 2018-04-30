@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="final_date" label="Final Date" language="en" table="x_214172_globalweb_infogeral">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>final_date</element>
+            <help/>
+            <hint/>
+            <label>Final Date</label>
+            <language>en</language>
+            <name>x_214172_globalweb_infogeral</name>
+            <plural>Final Dates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-04-30 13:23:34</sys_created_on>
+            <sys_id>7d56f7994f751300db3c4bff9310c79d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Final Date</sys_name>
+            <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
+            <sys_update_name>sys_documentation_x_214172_globalweb_infogeral_final_date_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-04-30 13:23:34</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
