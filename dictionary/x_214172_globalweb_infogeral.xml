@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="InfoGeral" max_length="40" name="x_214172_globalweb_infogeral" type="collection">
+    <element label="Resultados Enviados" max_length="40" name="x_214172_globalweb_infogeral" type="collection">
         <element label="Banco de Horas" max_length="40" name="banco_de_horas" type="integer"/>
         <element choice="1" label="Base de conhecimento estruturada" max_length="40" name="base_de_conhecimento_estruturada" type="choice">
             <choice/>

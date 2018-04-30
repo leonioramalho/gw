@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="INFRAERO">5328a0694ff51300db3c4bff9310c7e2</sc_cat_item>
+        <sc_category display_value="Região 1 (Brasília)">17d72d5d4f311300db3c4bff9310c72e</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-30 17:02:52</sys_created_on>
+        <sys_id>4688e0a94ff51300db3c4bff9310c745</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Região 1 (Brasília).INFRAERO</sys_name>
+        <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
+        <sys_update_name>sc_cat_item_category_4688e0a94ff51300db3c4bff9310c745</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-30 17:02:52</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>
