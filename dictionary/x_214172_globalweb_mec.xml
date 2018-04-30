@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_214172_globalweb_infogeral" label="MEC" max_length="40" name="x_214172_globalweb_mec" type="collection"/>
+</database>

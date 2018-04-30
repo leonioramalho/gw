@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_214172_globalweb_infogeral" label="CGU" max_length="40" name="x_214172_globalweb_cgu" type="collection"/>
+</database>

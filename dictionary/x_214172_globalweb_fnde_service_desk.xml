@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_214172_globalweb_infogeral" label="FNDE Service Desk" max_length="40" name="x_214172_globalweb_fnde_service_desk" type="collection"/>
+</database>
