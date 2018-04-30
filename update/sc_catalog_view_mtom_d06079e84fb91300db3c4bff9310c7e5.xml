@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <sc_catalog display_value="Projetos Globalweb">0b40bde84fb91300db3c4bff9310c7a6</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-27 19:42:49</sys_created_on>
+        <sys_id>d06079e84fb91300db3c4bff9310c7e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Projetos Globalweb.catalog_projetos_globalweb</sys_name>
+        <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="catalog_projetos_globalweb">d86079e84fb91300db3c4bff9310c7e4</sys_portal_page>
+        <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_d06079e84fb91300db3c4bff9310c7e5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-27 19:42:49</sys_updated_on>
+    </sc_catalog_view_mtom>
+</record_update>
