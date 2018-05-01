@@ -3,7 +3,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="MJ">b69964a94ff51300db3c4bff9310c7c3</cat_item>
+        <cat_item/>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -38,7 +38,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>sys_created_by</name>
-        <order/>
+        <order>10</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <question_text>Usuário</question_text>
@@ -60,14 +60,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-04-30 18:06:24</sys_created_on>
         <sys_id>2af5f8a14f391300db3c4bff9310c7c4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Usuário</sys_name>
         <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
         <sys_policy/>
         <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
         <sys_update_name>item_option_new_2af5f8a14f391300db3c4bff9310c7c4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-04-30 18:39:23</sys_updated_on>
+        <sys_updated_on>2018-04-30 18:58:10</sys_updated_on>
         <table/>
         <tooltip/>
         <type>8</type>

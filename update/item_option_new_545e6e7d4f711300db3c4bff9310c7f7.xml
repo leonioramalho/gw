@@ -3,7 +3,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="MJ">b69964a94ff51300db3c4bff9310c7c3</cat_item>
+        <cat_item display_value="MJ">ee6e0d214f791300db3c4bff9310c741</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -14,7 +14,7 @@
         <delete_roles/>
         <delivery_plan/>
         <description/>
-        <display_title>false</display_title>
+        <display_title>true</display_title>
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
@@ -25,7 +25,7 @@
         <help_text/>
         <include_none>false</include_none>
         <instructions/>
-        <layout>normal</layout>
+        <layout>2across</layout>
         <list_table/>
         <lookup_label/>
         <lookup_price/>
@@ -37,11 +37,11 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>formatter2</name>
-        <order>0</order>
+        <name>Processos</name>
+        <order>900</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text/>
+        <question_text>Processos</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -58,19 +58,19 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-04-30 18:42:31</sys_created_on>
-        <sys_id>4a4ffce54f391300db3c4bff9310c71b</sys_id>
+        <sys_created_on>2018-05-01 21:26:57</sys_created_on>
+        <sys_id>545e6e7d4f711300db3c4bff9310c7f7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>formatter2</sys_name>
+        <sys_name>Processos</sys_name>
         <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
         <sys_policy/>
         <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
-        <sys_update_name>item_option_new_4a4ffce54f391300db3c4bff9310c71b</sys_update_name>
+        <sys_update_name>item_option_new_545e6e7d4f711300db3c4bff9310c7f7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-04-30 18:42:31</sys_updated_on>
+        <sys_updated_on>2018-05-01 21:26:57</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>24</type>
+        <type>19</type>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
@@ -84,22 +84,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=4a4ffce54f391300db3c4bff9310c71b"/>
-    <fx_price action="delete_multiple" query="id=4a4ffce54f391300db3c4bff9310c71b"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=545e6e7d4f711300db3c4bff9310c7f7"/>
+    <fx_price action="delete_multiple" query="id=545e6e7d4f711300db3c4bff9310c7f7"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="EUR">EUR</currency>
         <field>price_if_checked</field>
-        <id>4a4ffce54f391300db3c4bff9310c71b</id>
+        <id>545e6e7d4f711300db3c4bff9310c7f7</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-04-30 18:42:31</sys_created_on>
-        <sys_id>ce5f3ce54f391300db3c4bff9310c7be</sys_id>
+        <sys_created_on>2018-05-01 21:26:57</sys_created_on>
+        <sys_id>d49eae7d4f711300db3c4bff9310c75f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-04-30 18:42:31</sys_updated_on>
+        <sys_updated_on>2018-05-01 21:26:57</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -107,16 +107,16 @@
         <amount>0</amount>
         <currency display_value="EUR">EUR</currency>
         <field>rec_price_if_checked</field>
-        <id>4a4ffce54f391300db3c4bff9310c71b</id>
+        <id>545e6e7d4f711300db3c4bff9310c7f7</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-04-30 18:42:31</sys_created_on>
-        <sys_id>865f3ce54f391300db3c4bff9310c7be</sys_id>
+        <sys_created_on>2018-05-01 21:26:57</sys_created_on>
+        <sys_id>9c9eae7d4f711300db3c4bff9310c75e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-04-30 18:42:31</sys_updated_on>
+        <sys_updated_on>2018-05-01 21:26:57</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
