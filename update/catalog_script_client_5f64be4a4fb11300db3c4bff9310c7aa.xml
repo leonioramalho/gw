@@ -26,28 +26,28 @@
 	
 	RawData = RawData.replace(/[a-zA-Z!@#$%ˆ&*(){}\[\]|\/~`:;_+=\-?<>'"\\]+/g,"");
 	RawData = RawData.replace(" ","");
-	
 	if ( (RawData.split(",").length - 1 + RawData.split(".").length - 1) > 1) {
-		g_form.clearMessages();
-		g_form.hideFieldMsg('faturamento');
-		g_form.showFieldMsg('faturamento',"Valor Inválido!","error");
-		g_form.addErrorMessage("Valor informado não é válido");
+		ErrorMessages();
 		return;
 	}
 	
 	RawData = RawData.replace(/,/g,".");
-	if (isNaN(RawData)){
-		g_form.clearMessages();
-		g_form.hideFieldMsg('faturamento');
-		g_form.showFieldMsg('faturamento',"Valor Inválido!","error");
-		g_form.addErrorMessage("Valor informado não é válido");	
+	
+	if (isNaN(RawData) || RawData==""){
+		ErrorMessages();
 	}else{
 		RawData = parseFloat(RawData).toFixed(2);
 		g_form.hideFieldMsg('faturamento');
 		g_form.clearMessages();
 		g_form.setValue("faturamento", RawData);
-	}
-	
+	}	
+}
+
+function ErrorMessages(){
+		g_form.clearMessages();
+		g_form.hideFieldMsg('faturamento');
+		g_form.showFieldMsg('faturamento',"Valor Inválido!","error");
+		g_form.addErrorMessage("Valor informado não é válido");
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -55,7 +55,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5f64be4a4fb11300db3c4bff9310c7aa</sys_id>
-        <sys_mod_count>87</sys_mod_count>
+        <sys_mod_count>91</sys_mod_count>
         <sys_name>Valida Faturamento</sys_name>
         <sys_overrides/>
         <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
@@ -63,7 +63,7 @@
         <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
         <sys_update_name>catalog_script_client_5f64be4a4fb11300db3c4bff9310c7aa</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-04 16:27:20</sys_updated_on>
+        <sys_updated_on>2018-05-04 17:55:40</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
