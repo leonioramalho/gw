@@ -17,17 +17,42 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-04-30 03:28:12</sys_created_on>
         <sys_id>201e69514f711300db3c4bff9310c783</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
         <sys_policy/>
         <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
         <sys_update_name>sp_instance_201e69514f711300db3c4bff9310c783</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-04-30 17:30:14</sys_updated_on>
+        <sys_updated_on>2018-05-09 14:24:23</sys_updated_on>
         <title/>
         <url/>
-        <widget_parameters/>
+        <widget_parameters><![CDATA[{
+	"hide_xs": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"omit_badges": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"check_can_view": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"category_layout": {
+		"value": "Flat",
+		"displayValue": "Flat"
+	},
+	"page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"number_of_categories_to_load": {
+		"value": null,
+		"displayValue": ""
+	}
+}]]></widget_parameters>
     </sp_instance>
     <sys_translated_text action="delete_multiple" query="documentkey=201e69514f711300db3c4bff9310c783"/>
 </record_update>
