@@ -23,31 +23,21 @@
 	}
 	
 	var RawData = newValue;
+	RawData = RawData.replace("R","").replace("$","").replace(" ","");
 	
-	RawData = RawData.replace(/[a-zA-Z!@#$%ˆ&*(){}\[\]|\/~`:;_+=\-?<>'"\\]+/g,"");
-	RawData = RawData.replace(" ","");
-	if ( (RawData.split(",").length - 1 + RawData.split(".").length - 1) > 1) {
-		ErrorMessages();
-		return;
-	}
-	
-	RawData = RawData.replace(/,/g,".");
-	
-	if (isNaN(RawData) || RawData==""){
-		ErrorMessages();
-	}else{
-		RawData = parseFloat(RawData).toFixed(2);
-		g_form.hideFieldMsg('faturamento');
-		g_form.clearMessages();
-		g_form.setValue("faturamento", RawData);
-	}	
-}
-
-function ErrorMessages(){
+	RawData = (parseFloat(RawData.replace(/\./g,"").replace(",",".").replace("-","")).toFixed(2)).replace(".",",");
+	if (RawData == "NaN"){
 		g_form.clearMessages();
 		g_form.hideFieldMsg('faturamento');
 		g_form.showFieldMsg('faturamento',"Valor Inválido!","error");
 		g_form.addErrorMessage("Valor informado não é válido");
+		g_form.setValue("faturamento","");
+	}else{
+		g_form.hideFieldMsg('faturamento');
+		g_form.clearMessages();
+		g_form.setValue("faturamento","R$ " + RawData);
+		return;
+	}
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -55,7 +45,7 @@ function ErrorMessages(){
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5f64be4a4fb11300db3c4bff9310c7aa</sys_id>
-        <sys_mod_count>91</sys_mod_count>
+        <sys_mod_count>144</sys_mod_count>
         <sys_name>Valida Faturamento</sys_name>
         <sys_overrides/>
         <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
@@ -63,7 +53,7 @@ function ErrorMessages(){
         <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
         <sys_update_name>catalog_script_client_5f64be4a4fb11300db3c4bff9310c7aa</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-04 17:55:40</sys_updated_on>
+        <sys_updated_on>2018-05-10 19:24:28</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

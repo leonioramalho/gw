@@ -21,9 +21,9 @@
         <element choice="1" label="Escopo" max_length="40" name="escopo" type="choice">
             <choice/>
         </element>
-        <element default="0.00" label="Faturamento" max_length="20" name="faturamento" type="price"/>
+        <element default="0.00" label="Faturamento" max_length="20" name="faturamento" type="currency"/>
         <element label="Final Date" max_length="40" name="final_date" type="glide_date"/>
-        <element default="0.00" label="Glosa" max_length="20" name="glosa" type="price"/>
+        <element default="0.00" label="Glosa" max_length="20" name="glosa" type="currency"/>
         <element label="Indicadores acima da meta" max_length="40" name="indicadores_acima_da_meta" type="integer"/>
         <element label="Indicadores Medidos" max_length="40" name="indicadores_medidos" type="integer"/>
         <element label="Initial Date" max_length="40" name="initial_date" type="glide_date"/>

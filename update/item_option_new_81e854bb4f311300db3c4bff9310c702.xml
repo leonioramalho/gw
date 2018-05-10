@@ -21,7 +21,7 @@
         <example_text/>
         <field>empresa</field>
         <global>false</global>
-        <help_tag>More information</help_tag>
+        <help_tag>Mais informações</help_tag>
         <help_text/>
         <include_none>false</include_none>
         <instructions/>
@@ -60,17 +60,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-07 15:47:51</sys_created_on>
         <sys_id>81e854bb4f311300db3c4bff9310c702</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Empresa</sys_name>
         <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
         <sys_policy/>
         <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
         <sys_update_name>item_option_new_81e854bb4f311300db3c4bff9310c702</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-07 15:47:51</sys_updated_on>
+        <sys_updated_on>2018-05-10 14:51:34</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>6</type>
+        <type>3</type>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>advanced</use_reference_qualifier>
