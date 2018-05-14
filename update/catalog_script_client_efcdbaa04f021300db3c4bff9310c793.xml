@@ -15,14 +15,16 @@
         <field/>
         <global>true</global>
         <messages/>
-        <name>Valida Data Inicial</name>
+        <name>[DATA] Valida Data Inicial</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
 	if (isLoading || newValue == '') {
 		return;
 	}
 	
-	//var date1 = new Date(newValue);
+	var field_datainicial = 'initial_date';
+	var field_datafinal = 'final_date';
+	
 	var datearray = newValue.split("/");
 	var newdate = datearray[1] + '/' + datearray[0] + '/' + datearray[2];
 	
@@ -32,24 +34,25 @@
 	//Verifica se a data inicial informada é anterior a data atual
  	var timeDiff = datainicial.getTime() -  dataatual.getTime();
   	if (timeDiff > -86400000){	
-  		g_form.clearMessages();
-  		g_form.hideFieldMsg('initial_date');
-  		g_form.showFieldMsg('initial_date',"O período de aferição deve ser anterior a data atual","error");
-  		g_form.addErrorMessage("Valor informado não é válido");	
+  		g_form.hideFieldMsg(field_datainicial);
+  		g_form.showFieldMsg(field_datainicial,"O período de aferição deve ser anterior a data atual","error");
+		g_form.setValue(field_datainicial,"");
   	}else{
-		g_form.hideFieldMsg('initial_date');
-		g_form.clearMessages();
+		g_form.hideFieldMsg(field_datainicial);
+		return;
 	}
 	
 	//Verifica se a data final está preeenchida e se a data inicial é anterior a data final.
-	if (g_form.getValue('final_date') != ''){
-		var datasplitted = g_form.getValue('final_date').split('/');
+	if (g_form.getValue(field_datafinal) != ''){
+		var datasplitted = g_form.getValue(field_datafinal).split('/');
 		newdate = datasplitted[1] + '/' + datasplitted[0] + '/' + datasplitted[2];
 		var datafinal = new Date(newdate);
 		
 		if (datainicial.getTime() > datafinal.getTime()){
-			g_form.hideFieldMsg('initial_date');
-			  g_form.showFieldMsg('initial_date',"A data inicial não pode ser posterior a data final","error");
+			g_form.hideFieldMsg(field_datainicial);
+			g_form.showFieldMsg(field_datainicial,"A data inicial não pode ser posterior a data final","error");
+			g_form.setValue(field_datainicial,"");
+			return;
 		}
 	}
 }
@@ -60,15 +63,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>efcdbaa04f021300db3c4bff9310c793</sys_id>
-        <sys_mod_count>44</sys_mod_count>
-        <sys_name>Valida Data Inicial</sys_name>
+        <sys_mod_count>49</sys_mod_count>
+        <sys_name>[DATA] Valida Data Inicial</sys_name>
         <sys_overrides/>
         <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
         <sys_policy/>
         <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
         <sys_update_name>catalog_script_client_efcdbaa04f021300db3c4bff9310c793</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-10 14:27:56</sys_updated_on>
+        <sys_updated_on>2018-05-14 14:03:26</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

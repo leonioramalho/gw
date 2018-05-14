@@ -73,45 +73,6 @@
         <workflow/>
     </sc_cat_item_producer>
     <sys_translated_text action="delete_multiple" query="documentkey=ee6e0d214f791300db3c4bff9310c741"/>
-    <sys_translated_text action="INSERT_OR_UPDATE">
-        <documentkey>ee6e0d214f791300db3c4bff9310c741</documentkey>
-        <fieldname>description</fieldname>
-        <language>pb</language>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-05-04 16:47:55</sys_created_on>
-        <sys_id>167bc57e4f391300db3c4bff9310c7f6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-04 16:47:55</sys_updated_on>
-        <tablename>sc_cat_item_producer</tablename>
-        <value/>
-    </sys_translated_text>
-    <sys_translated_text action="INSERT_OR_UPDATE">
-        <documentkey>ee6e0d214f791300db3c4bff9310c741</documentkey>
-        <fieldname>name</fieldname>
-        <language>pb</language>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-05-04 16:47:53</sys_created_on>
-        <sys_id>427bc57e4f391300db3c4bff9310c7ef</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-04 16:47:53</sys_updated_on>
-        <tablename>sc_cat_item_producer</tablename>
-        <value>MJ</value>
-    </sys_translated_text>
-    <sys_translated_text action="INSERT_OR_UPDATE">
-        <documentkey>ee6e0d214f791300db3c4bff9310c741</documentkey>
-        <fieldname>short_description</fieldname>
-        <language>pb</language>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-05-04 16:47:54</sys_created_on>
-        <sys_id>9e7bc57e4f391300db3c4bff9310c7f2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-04 16:47:54</sys_updated_on>
-        <tablename>sc_cat_item_producer</tablename>
-        <value>Ministério da Justiça</value>
-    </sys_translated_text>
     <fx_price action="delete_multiple" query="id=ee6e0d214f791300db3c4bff9310c741"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>

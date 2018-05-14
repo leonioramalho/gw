@@ -54,15 +54,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-04-30 14:00:31</sys_created_on>
-        <sys_id>20beb7dd4f751300db3c4bff9310c76e</sys_id>
+        <sys_id>29903bfd4f021300db3c4bff9310c767</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Indice de Satisfacao dos Solicitantes de Atividades de TIC</sys_name>
         <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
         <sys_policy/>
         <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
         <sys_update_name>sys_dictionary_x_214172_globalweb_mj_indice_de_satisfacao_dos_solicitantes_de_atividades_de_tic</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-04-30 14:00:31</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-05-14 12:31:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

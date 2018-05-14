@@ -85,32 +85,6 @@
         <write_roles/>
     </item_option_new>
     <sys_translated_text action="delete_multiple" query="documentkey=63aea2fd4f711300db3c4bff9310c7ef"/>
-    <sys_translated_text action="INSERT_OR_UPDATE">
-        <documentkey>63aea2fd4f711300db3c4bff9310c7ef</documentkey>
-        <fieldname>help_text</fieldname>
-        <language>pb</language>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-05-04 18:43:21</sys_created_on>
-        <sys_id>95e5213e4f791300db3c4bff9310c796</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-04 18:43:21</sys_updated_on>
-        <tablename>item_option_new</tablename>
-        <value/>
-    </sys_translated_text>
-    <sys_translated_text action="INSERT_OR_UPDATE">
-        <documentkey>63aea2fd4f711300db3c4bff9310c7ef</documentkey>
-        <fieldname>instructions</fieldname>
-        <language>pb</language>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-05-04 18:43:21</sys_created_on>
-        <sys_id>d9e569f64f791300db3c4bff9310c74b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-04 18:43:21</sys_updated_on>
-        <tablename>item_option_new</tablename>
-        <value/>
-    </sys_translated_text>
     <fx_price action="delete_multiple" query="id=63aea2fd4f711300db3c4bff9310c7ef"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>

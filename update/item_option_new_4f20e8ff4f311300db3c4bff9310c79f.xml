@@ -10,7 +10,7 @@
         <choice_table/>
         <create_roles/>
         <default_html_value/>
-        <default_value/>
+        <default_value>nao</default_value>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -33,15 +33,15 @@
         <lookup_unique>false</lookup_unique>
         <lookup_value/>
         <macro/>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>reequilibrio_financeiro</name>
-        <order>192</order>
+        <order>355</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Houve Reequilíbrio Financeiro?</question_text>
+        <question_text>Houve Reequilíbrio Financeiro no período informado?</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -60,14 +60,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-07 16:13:37</sys_created_on>
         <sys_id>4f20e8ff4f311300db3c4bff9310c79f</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Houve Reequilíbrio Financeiro?</sys_name>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Houve Reequilíbrio Financeiro no período informado?</sys_name>
         <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
         <sys_policy/>
         <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
         <sys_update_name>item_option_new_4f20e8ff4f311300db3c4bff9310c79f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-09 20:20:19</sys_updated_on>
+        <sys_updated_on>2018-05-14 14:51:42</sys_updated_on>
         <table/>
         <tooltip/>
         <type>3</type>

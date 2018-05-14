@@ -54,15 +54,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-08 14:38:10</sys_created_on>
-        <sys_id>f824958c4f421300db3c4bff9310c7a1</sys_id>
+        <sys_id>8a903bfd4f021300db3c4bff9310c7c9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_214172_globalweb_cni</sys_name>
         <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
         <sys_policy/>
         <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
-        <sys_update_name>sys_dictionary_x_214172_globalweb_cni_null</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-08 14:38:10</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_214172_globalweb_cni_NULL</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-05-14 12:31:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
