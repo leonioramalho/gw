@@ -32,7 +32,7 @@
         <lookup_table/>
         <lookup_unique>false</lookup_unique>
         <lookup_value/>
-        <macro display_value="Valida Valor">f1f8ecba4f711300db3c4bff9310c7a3</macro>
+        <macro/>
         <mandatory>true</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
