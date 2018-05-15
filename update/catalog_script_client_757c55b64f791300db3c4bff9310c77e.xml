@@ -15,24 +15,30 @@
         <field/>
         <global>true</global>
         <messages/>
-        <name>Valida Banco de Horas</name>
+        <name>[Int] Valida Banco de Horas</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
 	if (isLoading || newValue == '') {
 		return;
 	}
-	var RawData = newValue;
+	var field = 'banco_de_horas';
 	
-	if (isNaN(RawData) || (RawData.split(".").length - 1) > 0){
-		g_form.clearMessages();
-		g_form.hideFieldMsg('banco_de_horas');
-		g_form.showFieldMsg('banco_de_horas',"Valor Inválido!","error");
-		g_form.addErrorMessage("Valor informado não é válido");	
+	if (isPositiveInt(newValue)){
+		g_form.hideFieldMsg(field);
+		return;	
 	}else{
-		g_form.hideFieldMsg('banco_de_horas');
 		g_form.clearMessages();
-		g_form.setValue("banco_de_horas", RawData);	
-	}
+		g_form.hideFieldMsg(field);
+		g_form.showFieldMsg(field,"Valor Inválido!","error");
+		g_form.clearValue(field);
+		return;
+	}		
+}
+
+function isPositiveInt(value) {
+	return !isNaN(value) &&
+	parseInt(Number(value)) == value &&
+	!isNaN(parseInt(value, 10));
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -40,15 +46,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>757c55b64f791300db3c4bff9310c77e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Valida Banco de Horas</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>[Int] Valida Banco de Horas</sys_name>
         <sys_overrides/>
         <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
         <sys_policy/>
         <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
         <sys_update_name>catalog_script_client_757c55b64f791300db3c4bff9310c77e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-04 18:03:46</sys_updated_on>
+        <sys_updated_on>2018-05-15 00:24:04</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
