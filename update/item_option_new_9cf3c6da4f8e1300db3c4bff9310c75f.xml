@@ -18,11 +18,11 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <example_text/>
-        <field>final_date</field>
+        <example_text>0,00 %</example_text>
+        <field>receita_real_x_planejado</field>
         <global>false</global>
         <help_tag>More information</help_tag>
-        <help_text>Último dia do período de aferição</help_text>
+        <help_text/>
         <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
@@ -33,15 +33,15 @@
         <lookup_unique>false</lookup_unique>
         <lookup_value/>
         <macro/>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>final_date</name>
-        <order>160</order>
+        <name>receita_real_x_planejado</name>
+        <order>530</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Data Final</question_text>
+        <question_text>Receita Real x Planejado (YOY 2017/2018) (%)</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -52,25 +52,25 @@
         <reference_qual_condition/>
         <scale_max>5</scale_max>
         <scale_min>0</scale_min>
-        <show_help>true</show_help>
+        <show_help>false</show_help>
         <show_help_on_load>false</show_help_on_load>
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-04-30 23:10:08</sys_created_on>
-        <sys_id>ca9cfde54fb91300db3c4bff9310c7c0</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_name>Data Final</sys_name>
+        <sys_created_on>2018-05-15 17:56:06</sys_created_on>
+        <sys_id>9cf3c6da4f8e1300db3c4bff9310c75f</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Receita Real x Planejado (YOY 2017/2018) (%)</sys_name>
         <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
         <sys_policy/>
         <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
-        <sys_update_name>item_option_new_ca9cfde54fb91300db3c4bff9310c7c0</sys_update_name>
+        <sys_update_name>item_option_new_9cf3c6da4f8e1300db3c4bff9310c75f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-15 17:30:46</sys_updated_on>
+        <sys_updated_on>2018-05-15 18:45:14</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>9</type>
+        <type>6</type>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
@@ -84,22 +84,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=ca9cfde54fb91300db3c4bff9310c7c0"/>
-    <fx_price action="delete_multiple" query="id=ca9cfde54fb91300db3c4bff9310c7c0"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=9cf3c6da4f8e1300db3c4bff9310c75f"/>
+    <fx_price action="delete_multiple" query="id=9cf3c6da4f8e1300db3c4bff9310c75f"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="EUR">EUR</currency>
         <field>price_if_checked</field>
-        <id>ca9cfde54fb91300db3c4bff9310c7c0</id>
+        <id>9cf3c6da4f8e1300db3c4bff9310c75f</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-04-30 23:10:08</sys_created_on>
-        <sys_id>869cfde54fb91300db3c4bff9310c7c2</sys_id>
+        <sys_created_on>2018-05-15 17:56:06</sys_created_on>
+        <sys_id>e0940eda4f8e1300db3c4bff9310c7b2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-04-30 23:10:08</sys_updated_on>
+        <sys_updated_on>2018-05-15 17:56:06</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -107,16 +107,16 @@
         <amount>0</amount>
         <currency display_value="EUR">EUR</currency>
         <field>rec_price_if_checked</field>
-        <id>ca9cfde54fb91300db3c4bff9310c7c0</id>
+        <id>9cf3c6da4f8e1300db3c4bff9310c75f</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-04-30 23:10:08</sys_created_on>
-        <sys_id>4e9cfde54fb91300db3c4bff9310c7c1</sys_id>
+        <sys_created_on>2018-05-15 17:56:06</sys_created_on>
+        <sys_id>14940eda4f8e1300db3c4bff9310c7b1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-04-30 23:10:08</sys_updated_on>
+        <sys_updated_on>2018-05-15 17:56:06</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

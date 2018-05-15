@@ -52,6 +52,7 @@
         <element choice="1" label="Tipo de Contrato" max_length="40" name="tipo_de_contrato" type="string_full_utf8">
             <choice/>
         </element>
+        <element label="Tipo de Projeto" max_length="255" name="tipo_de_projeto" type="string_full_utf8"/>
         <element label="Valor Anual do Contrato" max_length="20" name="valor_anual_do_contrato" type="price"/>
         <element label="Valor Mensal do Contrato" max_length="20" name="valor_mensal_do_contrato" type="price"/>
         <element label="Variacao de custos" max_length="40" name="variacao_de_custos" type="float"/>

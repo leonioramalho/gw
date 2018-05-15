@@ -6,56 +6,54 @@
         <applies_extended>false</applies_extended>
         <applies_req_item>false</applies_req_item>
         <applies_sc_task>false</applies_sc_task>
-        <applies_target_record>true</applies_target_record>
+        <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <cat_item display_value="MJ">ee6e0d214f791300db3c4bff9310c741</cat_item>
-        <cat_variable/>
+        <cat_variable>IO:bb6542da4f8e1300db3c4bff9310c7be</cat_variable>
         <condition/>
         <description/>
         <field/>
         <global>true</global>
         <messages/>
-        <name>onLoad Script</name>
+        <name>[%] Valida Variação de Receita</name>
         <order/>
-        <script><![CDATA[function onLoad() {
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+	if (isLoading || newValue == '') {
+		return;
+	}
+	var field = 'variacao_de_receita';
+	var RawData = newValue;
 	
-// 	var target = new GlideRecord('x_214172_globalweb_infogeral');
-// 	target.setLimit(100);
-// 	//target.addQuery('sys_class_name','x_214172_globalweb_mj');
-// 	target.query();
+	RawData = (parseFloat(RawData.replace(",",".")).toFixed(2));
 	
-// 	console.log(target);
-	
-// 	while (target.next()) {
-// 		console.log("teste3");
-// 		if (!target.hasNext()){
-// 			console.log("teste2");
-// 			console.log(target.get('number'));
-// 		}
-// 	}
-	
-	//Set fields as readonly
-	g_form.setReadOnly('sys_created_by',true);
-	g_form.setReadOnly('sys_created_on',true);
-	return;
+	if (RawData == "NaN"){
+		g_form.hideFieldMsg(field);
+		g_form.showFieldMsg(field,"Valor Inválido!","error");
+		g_form.clearValue(field);
+		return;
+	}else{
+		g_form.hideFieldMsg(field);
+		g_form.setValue(field,RawData);
+		return;
+	}
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-05-03 19:08:33</sys_created_on>
+        <sys_created_on>2018-05-15 19:08:25</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>4240206a4f311300db3c4bff9310c705</sys_id>
-        <sys_mod_count>40</sys_mod_count>
-        <sys_name>onLoad Script</sys_name>
+        <sys_id>3a9412164fce1300db3c4bff9310c703</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>[%] Valida Variação de Receita</sys_name>
         <sys_overrides/>
         <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
         <sys_policy/>
         <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
-        <sys_update_name>catalog_script_client_4240206a4f311300db3c4bff9310c705</sys_update_name>
+        <sys_update_name>catalog_script_client_3a9412164fce1300db3c4bff9310c703</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-15 17:30:08</sys_updated_on>
+        <sys_updated_on>2018-05-15 20:08:50</sys_updated_on>
         <table/>
-        <type>onLoad</type>
+        <type>onChange</type>
         <ui_type>10</ui_type>
         <variable_set/>
         <view/>

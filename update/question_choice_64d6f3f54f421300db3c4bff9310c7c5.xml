@@ -3,7 +3,7 @@
     <question_choice action="INSERT_OR_UPDATE">
         <misc>0</misc>
         <order>100</order>
-        <question display_value="Tipo de Projeto (teste)">18763bb54f421300db3c4bff9310c7cd</question>
+        <question display_value="Tipo de Projeto">18763bb54f421300db3c4bff9310c7cd</question>
         <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>admin</sys_created_by>
