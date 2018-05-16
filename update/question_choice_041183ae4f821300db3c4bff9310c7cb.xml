@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>100</order>
+        <question display_value="São emitidos relatórios periódicos?">8a0103ae4f821300db3c4bff9310c7df</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-16 16:58:52</sys_created_on>
+        <sys_id>041183ae4f821300db3c4bff9310c7cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sim</sys_name>
+        <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
+        <sys_update_name>question_choice_041183ae4f821300db3c4bff9310c7cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-16 16:58:52</sys_updated_on>
+        <text>Sim</text>
+        <value>sim</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=041183ae4f821300db3c4bff9310c7cb"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>041183ae4f821300db3c4bff9310c7cb</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="BRL">BRL</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-16 16:58:52</sys_created_on>
+        <sys_id>841183ae4f821300db3c4bff9310c7cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-16 16:58:52</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>041183ae4f821300db3c4bff9310c7cb</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="BRL">BRL</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-16 16:58:52</sys_created_on>
+        <sys_id>0c1183ae4f821300db3c4bff9310c7cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-16 16:58:52</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

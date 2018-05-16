@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sc_cat_item_catalog">
     <sc_cat_item_catalog action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Cópia de AGU">e95756664f421300db3c4bff9310c75a</sc_cat_item>
+        <sc_cat_item display_value="CGU">e95756664f421300db3c4bff9310c75a</sc_cat_item>
         <sc_catalog display_value="Projetos Globalweb">0b40bde84fb91300db3c4bff9310c7a6</sc_catalog>
         <sys_class_name>sc_cat_item_catalog</sys_class_name>
         <sys_created_by>admin</sys_created_by>

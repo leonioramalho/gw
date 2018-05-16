@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Cópia de AGU">e95756664f421300db3c4bff9310c75a</sc_cat_item>
+        <sc_cat_item display_value="CGU">e95756664f421300db3c4bff9310c75a</sc_cat_item>
         <sc_category display_value="Região 1 (Brasília)">17d72d5d4f311300db3c4bff9310c72e</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>admin</sys_created_by>
