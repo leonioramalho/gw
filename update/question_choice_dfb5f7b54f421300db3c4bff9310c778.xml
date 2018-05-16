@@ -3,7 +3,7 @@
     <question_choice action="INSERT_OR_UPDATE">
         <misc>0</misc>
         <order>100</order>
-        <question display_value="Reuniões Operacionais">43b5f7b54f421300db3c4bff9310c70a</question>
+        <question display_value="São realizadas reuniões operacionais periódicas?">43b5f7b54f421300db3c4bff9310c70a</question>
         <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>admin</sys_created_by>

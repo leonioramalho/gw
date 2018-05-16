@@ -33,7 +33,7 @@
         <lookup_unique>false</lookup_unique>
         <lookup_value/>
         <macro/>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
@@ -60,14 +60,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-07 16:53:01</sys_created_on>
         <sys_id>4449ac374f711300db3c4bff9310c73f</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Escopo do contrato</sys_name>
         <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
         <sys_policy/>
         <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
         <sys_update_name>item_option_new_4449ac374f711300db3c4bff9310c73f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-15 18:26:03</sys_updated_on>
+        <sys_updated_on>2018-05-16 13:13:59</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>
@@ -85,6 +85,32 @@
         <write_roles/>
     </item_option_new>
     <sys_translated_text action="delete_multiple" query="documentkey=4449ac374f711300db3c4bff9310c73f"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>4449ac374f711300db3c4bff9310c73f</documentkey>
+        <fieldname>help_text</fieldname>
+        <language>pb</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-16 13:13:59</sys_created_on>
+        <sys_id>219d4eae4f021300db3c4bff9310c753</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-16 13:13:59</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value>Ex: N1, N2, N3 INFRA, monitoração </value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>4449ac374f711300db3c4bff9310c73f</documentkey>
+        <fieldname>instructions</fieldname>
+        <language>pb</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-16 13:13:59</sys_created_on>
+        <sys_id>659d4eae4f021300db3c4bff9310c750</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-16 13:13:59</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value/>
+    </sys_translated_text>
     <fx_price action="delete_multiple" query="id=4449ac374f711300db3c4bff9310c73f"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>

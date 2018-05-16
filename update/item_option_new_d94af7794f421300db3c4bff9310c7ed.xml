@@ -33,7 +33,7 @@
         <lookup_unique>false</lookup_unique>
         <lookup_value/>
         <macro/>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
@@ -60,14 +60,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-14 13:14:23</sys_created_on>
         <sys_id>d94af7794f421300db3c4bff9310c7ed</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Número do termo aditivo vigênte</sys_name>
         <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
         <sys_policy/>
         <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
         <sys_update_name>item_option_new_d94af7794f421300db3c4bff9310c7ed</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-15 18:52:15</sys_updated_on>
+        <sys_updated_on>2018-05-16 13:14:36</sys_updated_on>
         <table/>
         <tooltip/>
         <type>4</type>
@@ -85,6 +85,32 @@
         <write_roles/>
     </item_option_new>
     <sys_translated_text action="delete_multiple" query="documentkey=d94af7794f421300db3c4bff9310c7ed"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>d94af7794f421300db3c4bff9310c7ed</documentkey>
+        <fieldname>help_text</fieldname>
+        <language>pb</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-16 13:14:36</sys_created_on>
+        <sys_id>72bd86ee4f021300db3c4bff9310c778</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-16 13:14:36</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>d94af7794f421300db3c4bff9310c7ed</documentkey>
+        <fieldname>instructions</fieldname>
+        <language>pb</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-16 13:14:36</sys_created_on>
+        <sys_id>f6bd86ee4f021300db3c4bff9310c705</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-16 13:14:36</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value/>
+    </sys_translated_text>
     <fx_price action="delete_multiple" query="id=d94af7794f421300db3c4bff9310c7ed"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
