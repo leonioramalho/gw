@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="receita_orcada" label="Receita Orçada" language="en" table="x_214172_globalweb_infogeral">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>receita_orcada</element>
+            <help/>
+            <hint/>
+            <label>Receita Orçada</label>
+            <language>en</language>
+            <name>x_214172_globalweb_infogeral</name>
+            <plural>Receita Orçadas</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-18 13:39:14</sys_created_on>
+            <sys_id>fa86ec174f421300db3c4bff9310c762</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Receita Orçada</sys_name>
+            <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
+            <sys_update_name>sys_documentation_x_214172_globalweb_infogeral_receita_orcada_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-18 13:39:14</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

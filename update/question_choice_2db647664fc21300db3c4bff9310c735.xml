@@ -3,7 +3,7 @@
     <question_choice action="INSERT_OR_UPDATE">
         <misc>0</misc>
         <order>100</order>
-        <question display_value="Possui Base de Conhecimento Estruturada?">9db647664fc21300db3c4bff9310c705</question>
+        <question display_value="Possui Base de Conhecimento Estruturada">9db647664fc21300db3c4bff9310c705</question>
         <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>admin</sys_created_by>

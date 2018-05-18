@@ -3,7 +3,7 @@
     <question_choice action="INSERT_OR_UPDATE">
         <misc>0</misc>
         <order>100</order>
-        <question display_value="Possui plano de reajuste estruturado?">0b8fba2e4f821300db3c4bff9310c7a2</question>
+        <question display_value="Possui plano de reajuste de salário/equipe?">0b8fba2e4f821300db3c4bff9310c7a2</question>
         <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>admin</sys_created_by>

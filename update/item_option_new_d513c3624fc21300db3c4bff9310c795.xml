@@ -3,7 +3,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="FNDE - Service Desk">c813cb224fc21300db3c4bff9310c7a5</cat_item>
+        <cat_item display_value="FNDE Service Desk">c813cb224fc21300db3c4bff9310c7a5</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>

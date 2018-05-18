@@ -8,7 +8,7 @@
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <cat_item display_value="FNDE - Service Desk">c813cb224fc21300db3c4bff9310c7a5</cat_item>
+        <cat_item display_value="FNDE Service Desk">c813cb224fc21300db3c4bff9310c7a5</cat_item>
         <cat_variable>IO:2c1383624fc21300db3c4bff9310c7f4</cat_variable>
         <condition/>
         <description/>

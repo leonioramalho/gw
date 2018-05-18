@@ -9,10 +9,13 @@
             <choice/>
         </element>
         <element label="Colaboradores sem crachá" max_length="40" name="colaboradores_sem_cracha" type="integer"/>
+        <element label="Custo Orçado" max_length="20" name="custo_orcado" type="price"/>
+        <element label="Custo Realizado" max_length="20" name="custo_realizado" type="price"/>
         <element label="Custo real x planejado" max_length="40" name="custo_real_x_planejado" type="float"/>
         <element choice="1" label="Empresa" max_length="40" name="empresa" type="string_full_utf8">
             <choice/>
         </element>
+        <element label="Equiparação Paradigma Cargos e Salários" max_length="40" name="equiparacao_paradigma_cargos_e_salarios" type="integer"/>
         <element choice="1" label="Escala de Férias Planejadas" max_length="40" name="escala_de_ferias_planejadas" type="string_full_utf8">
             <choice/>
         </element>
@@ -30,9 +33,14 @@
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Numero de Funcionarios" max_length="40" name="numero_de_funcionarios" type="integer"/>
         <element label="Numero Indicadores Contratuais" max_length="40" name="numero_indicadores_contratuais" type="integer"/>
+        <element label="Patrimônio da Empresa" max_length="255" name="patrimonio_da_empresa" type="string_full_utf8"/>
         <element choice="1" label="Plano de reajuste" max_length="40" name="plano_de_reajuste" type="string_full_utf8">
             <choice/>
         </element>
+        <element label="Receita Líquida Orçada" max_length="20" name="receita_liquida_orcada" type="price"/>
+        <element label="Receita Líquida Realizada" max_length="20" name="receita_liquida_realizada" type="price"/>
+        <element label="Receita Orçada" max_length="20" name="receita_orcada" type="price"/>
+        <element label="Receita Realizada" max_length="20" name="receita_realizada" type="price"/>
         <element label="Receita real x planejado" max_length="40" name="receita_real_x_planejado" type="float"/>
         <element label="Recursos compartilhados" max_length="40" name="recursos_compartilhados" type="integer"/>
         <element choice="1" label="Reequilíbrio Financeiro" max_length="40" name="reequilibrio_financeiro" type="string_full_utf8">
@@ -59,5 +67,6 @@
         <element label="Variação de receita" max_length="40" name="variacao_de_receita" type="float"/>
         <element label="Vigência Contrato" max_length="40" name="vigencia_contrato" type="glide_date"/>
         <element label="Vigência Edital" max_length="40" name="vigencia_edital" type="glide_date"/>
+        <element label="Volumetria demanda mensal" max_length="40" name="volumetria_demanda_mensal" type="integer"/>
     </element>
 </database>

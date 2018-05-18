@@ -50,7 +50,7 @@
         <reference/>
         <reference_qual/>
         <reference_qual_condition/>
-        <scale_max>4</scale_max>
+        <scale_max>10</scale_max>
         <scale_min>0</scale_min>
         <show_help>false</show_help>
         <show_help_on_load>false</show_help_on_load>
@@ -60,14 +60,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-14 13:14:23</sys_created_on>
         <sys_id>d94af7794f421300db3c4bff9310c7ed</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Número do termo aditivo vigênte</sys_name>
         <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
         <sys_policy/>
         <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
         <sys_update_name>item_option_new_d94af7794f421300db3c4bff9310c7ed</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-16 13:14:36</sys_updated_on>
+        <sys_updated_on>2018-05-17 17:09:45</sys_updated_on>
         <table/>
         <tooltip/>
         <type>4</type>

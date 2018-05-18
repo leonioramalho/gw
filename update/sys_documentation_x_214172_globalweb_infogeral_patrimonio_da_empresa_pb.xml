@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="patrimonio_da_empresa" label="Patrimônio da Empresa" language="pb" table="x_214172_globalweb_infogeral">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>patrimonio_da_empresa</element>
+            <help/>
+            <hint/>
+            <label>Patrimônio da Empresa</label>
+            <language>pb</language>
+            <name>x_214172_globalweb_infogeral</name>
+            <plural>Patrimônio da Empresas</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-17 17:54:58</sys_created_on>
+            <sys_id>177798cb4f821300db3c4bff9310c713</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Patrimônio da Empresa</sys_name>
+            <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
+            <sys_update_name>sys_documentation_x_214172_globalweb_infogeral_patrimonio_da_empresa_pb</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-17 17:54:58</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

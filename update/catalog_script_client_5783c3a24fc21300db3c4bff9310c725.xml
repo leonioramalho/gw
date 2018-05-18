@@ -8,7 +8,7 @@
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <cat_item display_value="FNDE - Sustentação Infra">e773cf624fc21300db3c4bff9310c71c</cat_item>
+        <cat_item display_value="FNDE Sustentação Infra">e773cf624fc21300db3c4bff9310c71c</cat_item>
         <cat_variable>IO:0d8303a24fc21300db3c4bff9310c7d4</cat_variable>
         <condition/>
         <description/>
