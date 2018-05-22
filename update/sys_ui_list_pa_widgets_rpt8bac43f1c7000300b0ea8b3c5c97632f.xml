@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="pa_widgets" version="2" view="RPT8bac43f1c7000300b0ea8b3c5c97632f">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="pa_widgets" element="NULL" name="pa_widgets" parent="NULL" relationship="NULL" sys_domain="global" view="ce18091c4fd21300db3c4bff9310c7c4">8a18091c4fd21300db3c4bff9310c7c5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-21 18:39:44</sys_created_on>
+            <sys_id>c218091c4fd21300db3c4bff9310c7c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-21 18:39:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>type</element>
+            <list_id display_value="pa_widgets" element="NULL" name="pa_widgets" parent="NULL" relationship="NULL" sys_domain="global" view="ce18091c4fd21300db3c4bff9310c7c4">8a18091c4fd21300db3c4bff9310c7c5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-21 18:39:44</sys_created_on>
+            <sys_id>4a18091c4fd21300db3c4bff9310c7c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-21 18:39:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>visualization</element>
+            <list_id display_value="pa_widgets" element="NULL" name="pa_widgets" parent="NULL" relationship="NULL" sys_domain="global" view="ce18091c4fd21300db3c4bff9310c7c4">8a18091c4fd21300db3c4bff9310c7c5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-21 18:39:44</sys_created_on>
+            <sys_id>ca18091c4fd21300db3c4bff9310c7c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-21 18:39:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>indicator</element>
+            <list_id display_value="pa_widgets" element="NULL" name="pa_widgets" parent="NULL" relationship="NULL" sys_domain="global" view="ce18091c4fd21300db3c4bff9310c7c4">8a18091c4fd21300db3c4bff9310c7c5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-21 18:39:44</sys_created_on>
+            <sys_id>4e18091c4fd21300db3c4bff9310c7c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-21 18:39:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>tag</element>
+            <list_id display_value="pa_widgets" element="NULL" name="pa_widgets" parent="NULL" relationship="NULL" sys_domain="global" view="ce18091c4fd21300db3c4bff9310c7c4">8a18091c4fd21300db3c4bff9310c7c5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-21 18:39:44</sys_created_on>
+            <sys_id>ce18091c4fd21300db3c4bff9310c7c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-21 18:39:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>related_dashboards</element>
+            <list_id display_value="pa_widgets" element="NULL" name="pa_widgets" parent="NULL" relationship="NULL" sys_domain="global" view="ce18091c4fd21300db3c4bff9310c7c4">8a18091c4fd21300db3c4bff9310c7c5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-21 18:39:44</sys_created_on>
+            <sys_id>4218091c4fd21300db3c4bff9310c7c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-21 18:39:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>pa_widgets</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-21 18:39:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a18091c4fd21300db3c4bff9310c7c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>pa_widgets</sys_name>
+            <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
+            <sys_update_name>sys_ui_list_pa_widgets_RPT8bac43f1c7000300b0ea8b3c5c97632f</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-21 18:39:44</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt8bac43f1c7000300b0ea8b3c5c97632f" name="RPT8bac43f1c7000300b0ea8b3c5c97632f">ce18091c4fd21300db3c4bff9310c7c4</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
