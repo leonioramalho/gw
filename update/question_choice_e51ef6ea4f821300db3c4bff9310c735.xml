@@ -3,7 +3,7 @@
     <question_choice action="INSERT_OR_UPDATE">
         <misc>0</misc>
         <order>300</order>
-        <question display_value="Tipo de Serviço">381eb6ea4f821300db3c4bff9310c7af</question>
+        <question display_value="Unidade de Negócio">381eb6ea4f821300db3c4bff9310c7af</question>
         <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>admin</sys_created_by>

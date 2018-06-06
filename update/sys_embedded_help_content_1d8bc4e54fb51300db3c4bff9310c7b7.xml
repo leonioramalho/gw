@@ -4,7 +4,7 @@
         <active>true</active>
         <category>service-catalog</category>
         <content><![CDATA[ <h1 class="title topictitle1">Service catalog variables</h1>  <div class="body conbody">  <p class="p"><span class="ph">Service catalog variables capture and pass on information about          choices a customer makes when ordering a catalog item. Variables help define the structure          of a catalog item form that is displayed to the customer.</span></p>  <p class="p">For example, you can define a variable called          <span class="ph uicontrol">Memory</span> to provide users with memory options at an extra cost for a        PC catalog item. An Apple iPhone catalog item can use a variable called          <span class="ph uicontrol">Color</span> that allows customers to select the color when they order the        phone from the catalog. You can define some variables to affect an item price, depending on        the choices made. </p>  <p class="p">Variables are also used in record producers that insert a record into a task table, such as an   incident. Record producer variables can be mapped to a field in the task table.</p> </div> <div class="related-links"><div class="relinfo"><div class="reltitle">Related information<br /><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:Using_Service_Catalog_Variables&amp;version&#61;kingston" target="_blank">Service catalog variables</a></div></div></div></div>]]></content>
-        <last_sync>2018-05-15 14:56:13</last_sync>
+        <last_sync>2018-06-01 16:43:27</last_sync>
         <modifier>normal</modifier>
         <name>item_option_new_list-normal</name>
         <page>item_option_new_list</page>
@@ -19,14 +19,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1d8bc4e54fb51300db3c4bff9310c7b7</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>item_option_new_list-normal</sys_name>
         <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
         <sys_policy/>
         <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
         <sys_update_name>sys_embedded_help_content_1d8bc4e54fb51300db3c4bff9310c7b7</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-05-15 14:56:13</sys_updated_on>
+        <sys_updated_on>2018-06-01 16:43:27</sys_updated_on>
         <version>k</version>
     </sys_embedded_help_content>
     <sys_translated_text action="delete_multiple" query="documentkey=1d8bc4e54fb51300db3c4bff9310c7b7"/>
