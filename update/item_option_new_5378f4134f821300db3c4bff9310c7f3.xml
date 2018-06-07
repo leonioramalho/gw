@@ -18,7 +18,6 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <example_text>R$ 0,00</example_text>
         <field>receita_orcada</field>
         <global>false</global>
         <help_tag>More information</help_tag>
@@ -59,11 +58,13 @@
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-18 14:58:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>5378f4134f821300db3c4bff9310c7f3</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>Receita Orçada</sys_name>
         <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
         <sys_update_name>item_option_new_5378f4134f821300db3c4bff9310c7f3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
@@ -85,39 +86,4 @@
         <write_roles/>
     </item_option_new>
     <sys_translated_text action="delete_multiple" query="documentkey=5378f4134f821300db3c4bff9310c7f3"/>
-    <fx_price action="delete_multiple" query="id=5378f4134f821300db3c4bff9310c7f3"/>
-    <fx_price action="INSERT_OR_UPDATE">
-        <amount>0</amount>
-        <currency display_value="BRL">BRL</currency>
-        <field>price_if_checked</field>
-        <id>5378f4134f821300db3c4bff9310c7f3</id>
-        <parent/>
-        <reference_amount>0</reference_amount>
-        <reference_currency display_value="BRL">BRL</reference_currency>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-05-18 14:58:06</sys_created_on>
-        <sys_id>02983c134f821300db3c4bff9310c7cf</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-18 14:58:06</sys_updated_on>
-        <table>item_option_new</table>
-        <type>calculated</type>
-    </fx_price>
-    <fx_price action="INSERT_OR_UPDATE">
-        <amount>0</amount>
-        <currency display_value="BRL">BRL</currency>
-        <field>rec_price_if_checked</field>
-        <id>5378f4134f821300db3c4bff9310c7f3</id>
-        <parent/>
-        <reference_amount>0</reference_amount>
-        <reference_currency display_value="BRL">BRL</reference_currency>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-05-18 14:58:06</sys_created_on>
-        <sys_id>c6983c134f821300db3c4bff9310c7ce</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-18 14:58:06</sys_updated_on>
-        <table>item_option_new</table>
-        <type>calculated</type>
-    </fx_price>
 </record_update>

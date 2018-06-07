@@ -12,11 +12,13 @@
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-04-30 15:58:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>f1c954ed4fb51300db3c4bff9310c7e4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_214172_globalweb_cgu</sys_name>
         <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
         <sys_update_name>sys_security_acl_f1c954ed4fb51300db3c4bff9310c7e4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

@@ -6,7 +6,6 @@
         <applies_extended>false</applies_extended>
         <applies_req_item>false</applies_req_item>
         <applies_sc_task>false</applies_sc_task>
-        <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <cat_item display_value="MJ">ee6e0d214f791300db3c4bff9310c741</cat_item>
         <cat_variable>IO:03d8580f4f821300db3c4bff9310c74d</cat_variable>
@@ -44,6 +43,7 @@ function isPositiveInt(value) {
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-18 19:48:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c11b3d5f4f061300db3c4bff9310c7f6</sys_id>
@@ -52,6 +52,7 @@ function isPositiveInt(value) {
         <sys_overrides/>
         <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
         <sys_update_name>catalog_script_client_c11b3d5f4f061300db3c4bff9310c7f6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

@@ -18,16 +18,16 @@
         <provider_class/>
         <read_access>true</read_access>
         <super_class display_value="Resultados Enviados" name="x_214172_globalweb_infogeral">3ac4f7194f751300db3c4bff9310c71f</super_class>
-        <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
-        <sys_class_path/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-04-30 16:07:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>7fdb5c214ff51300db3c4bff9310c701</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>TELEBRAS</sys_name>
         <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
         <sys_update_name>sys_db_object_7fdb5c214ff51300db3c4bff9310c701</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

@@ -31,8 +31,6 @@
         <element>valor_anual_do_contrato</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
         <internal_type display_value="Price">price</internal_type>
         <mandatory>false</mandatory>
         <max_length>20</max_length>
@@ -54,15 +52,17 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-07 16:32:32</sys_created_on>
-        <sys_id>c190f7fd4f021300db3c4bff9310c7a1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b670c8b14f6a13007ce944b18110c7cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Valor Anual do Contrato</sys_name>
         <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
         <sys_update_name>sys_dictionary_x_214172_globalweb_infogeral_valor_anual_do_contrato</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-14 15:33:10</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-06-07 15:34:03</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

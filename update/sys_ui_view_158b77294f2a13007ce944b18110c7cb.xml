@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>store_usage_overview</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-07 15:11:45</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>158b77294f2a13007ce944b18110c7cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Store_usage_overview</sys_name>
+        <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
+        <sys_update_name>sys_ui_view_158b77294f2a13007ce944b18110c7cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-07 15:11:45</sys_updated_on>
+        <title>Store_usage_overview</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

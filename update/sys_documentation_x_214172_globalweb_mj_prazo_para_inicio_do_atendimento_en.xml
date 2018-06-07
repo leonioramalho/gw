@@ -12,11 +12,13 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-04-30 13:58:53</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
             <sys_id>1f6e3f9d4f751300db3c4bff9310c7af</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Prazo para inicio do atendimento</sys_name>
             <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
             <sys_update_name>sys_documentation_x_214172_globalweb_mj_prazo_para_inicio_do_atendimento_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>

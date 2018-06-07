@@ -14,7 +14,6 @@
         <description/>
         <entitlement_script/>
         <group/>
-        <hide_sp>false</hide_sp>
         <icon/>
         <ignore_price>true</ignore_price>
         <image/>
@@ -36,11 +35,10 @@
         <order>2200</order>
         <ordered_item_link/>
         <picture/>
-        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=d36c0bea4fc21300db3c4bff9310c7fd&amp;sysparm_preview=true", "summary");</preview>
+        <preview>JavaScript: popupOpenStandard("./com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=d36c0bea4fc21300db3c4bff9310c7fd&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
-        <redirect_url>generated_record</redirect_url>
         <roles/>
         <sc_catalogs>0b40bde84fb91300db3c4bff9310c7a6</sc_catalogs>
         <sc_ic_item_staging/>
@@ -52,11 +50,13 @@
         <sys_class_name>sc_cat_item_producer</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-16 17:48:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>d36c0bea4fc21300db3c4bff9310c7fd</sys_id>
         <sys_mod_count>9</sys_mod_count>
         <sys_name>TJDFT</sys_name>
         <sys_package display_value="Globalweb" source="x_214172_globalweb">3a31f1734f211300db3c4bff9310c7af</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Globalweb">3a31f1734f211300db3c4bff9310c7af</sys_scope>
         <sys_update_name>sc_cat_item_producer_d36c0bea4fc21300db3c4bff9310c7fd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
@@ -149,7 +149,6 @@
     </fx_price>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color>#ffffff</average_image_color>
-        <chunk_size_bytes>734003</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
         <file_name>icon</file_name>
@@ -186,7 +185,6 @@
     </sys_attachment_doc>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color>#ffffff</average_image_color>
-        <chunk_size_bytes>734003</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
         <file_name>picture</file_name>
